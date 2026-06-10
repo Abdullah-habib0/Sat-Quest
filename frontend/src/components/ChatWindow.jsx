@@ -41,17 +41,7 @@ const ChatWindow = ({ messages, isLoading, onSuggestionClick }) => {
           {messages.map((msg, i) => (
             <MessageBubble key={i} message={msg} />
           ))}
-          {isLoading && (
-            <div className="thinking-indicator">
-              <div className="assistant-icon-sm">✦</div>
-              <div className="thinking-dots">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <span className="thinking-text">Thinking...</span>
-            </div>
-          )}
+          
         </>
       )}
       <div ref={bottomRef} />
