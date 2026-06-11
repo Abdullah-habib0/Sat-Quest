@@ -2,8 +2,10 @@ fastapi
 uvicorn[standard]
 python-multipart
 motor
-pymongo
+pymongo[srv]==4.6.3
 python-dotenv
 huggingface_hub
 pydantic-settings
 aiohttp
+dnspython==2.6.1
+certifi
