@@ -1,7 +1,7 @@
 fastapi
 uvicorn[standard]
 python-multipart
-motor
+motor==3.4.0
 pymongo[srv]==4.6.3
 python-dotenv
 huggingface_hub
